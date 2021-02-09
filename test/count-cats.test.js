@@ -85,7 +85,7 @@ describe('Count cats!', () => {
         [null, 1, NaN, true, ".", "^^", "^^", 2, "", false, "dasdas", 0],
         [null, NaN, "", false, ".", 1, 0, "^^", "dasdas", true, 2, "^^"],
       ]), 16);
-     });
+    });
 
     it.optional('level 2', () => {
       assert.equal(countCats([
